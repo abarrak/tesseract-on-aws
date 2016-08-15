@@ -22,8 +22,8 @@ Alternatively, you can copy `tess-deploy.sh` script, then run for once. `sudo ba
 `tar -zxvf leptonica-1.73.tar.gz`  
 `rm leptonica-1.73.tar.gz`  
 `cd leptonica-1.73`  
-`./configure`
-`make`    # Takes ~4 min. on T2.micro Instance machine (Free Tier).
+`./configure`  
+`make`  # Takes ~4 min. on T2.micro Instance machine (Free Tier).  
 `sudo make install`  
 
 ## [4] Install Tesseract
@@ -35,7 +35,7 @@ Alternatively, you can copy `tess-deploy.sh` script, then run for once. `sudo ba
 `cd tesseract-3.04.01`  
 `./autogen.sh`  
 `./configure`  
-`make`    # Takes ~6 min. on T2.micro instance (Free Tier).
+`make`    # Takes ~6 min. on T2.micro instance (Free Tier).  
 `sudo make install`  
 `sudo ldconfig`  
 
