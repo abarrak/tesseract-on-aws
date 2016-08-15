@@ -3,8 +3,8 @@
 ## Introduction
 The repo gives the necessary steps to set the latest [Tesseract OCR engine](https://github.com/tesseract-ocr/tesseract) (3.04.01) on a AWS EC virtual machine.
 Alternatively, you can copy `tess-deploy.sh` script, then run for once. `sudo bash tess-deploy.sh` 😁.
+    
 ---
-
 ## [1] SSH to your EC instance
 `eb ssh <environment_name>`  
 
