@@ -52,9 +52,9 @@ Alternatively, you can copy `tess-deploy.sh` script, then run for once. `sudo ba
 ### Then Copy this line to the end:
 `export TESSDATA_PREFIX=/usr/local/share/`  
 
-## Verify
+## [8] Verify
 `tesseract`  
-
+    
 ---
 ## Notes
 
