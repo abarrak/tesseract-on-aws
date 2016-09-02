@@ -6,55 +6,68 @@ Alternatively, you can copy `tess-deploy.sh` script, then run for once. `sudo ba
     
 ---
 ## [1] SSH to your EC instance
-`eb ssh <environment_name>`  
-
-`sudo yum update`   
+```sh
+ssh <environment_name>
+sudo yum update
+```
 
 ## [2] Dependencies
-`sudo yum install autoconf aclocal automake`  
-`sudo yum install libtool`  
-`sudo yum install libjpeg-devel libpng-devel libtiff-devel zlib-devel`  
-
+```sh
+sudo yum install autoconf aclocal automake
+sudo yum install libtool
+sudo yum install libjpeg-devel libpng-devel libtiff-devel zlib-devel
+```
 ## [3] Install Leptonica
-`cd ~/libs`  
-`mkdir leptonica && cd leptonica`  
-`wget http://www.leptonica.com/source/leptonica-1.73.tar.gz`  
-`tar -zxvf leptonica-1.73.tar.gz`  
-`rm leptonica-1.73.tar.gz`  
-`cd leptonica-1.73`  
-`./configure`
-`make`    # Takes ~4 min. on T2.micro Instance machine (Free Tier).
-`sudo make install`  
-
+```sh
+cd ~/libs
+mkdir leptonica && cd leptonica
+wget http://www.leptonica.com/source/leptonica-1.73.tar.gz
+tar -zxvf leptonica-1.73.tar.gz
+rm leptonica-1.73.tar.gz
+cd leptonica-1.73
+./configure
+make
+sudo make install
+```
 ## [4] Install Tesseract
-`cd ~`  
-`mkdir tesseract && cd tesseract`  
-`wget https://github.com/tesseract-ocr/tesseract/archive/3.04.01.tar.gz`  
-`tar -zxvf 3.04.01.tar.gz`  
-`rm 3.04.01.tar.gz`  
-`cd tesseract-3.04.01`  
-`./autogen.sh`  
-`./configure`  
-`make`    # Takes ~6 min. on T2.micro instance (Free Tier).
-`sudo make install`  
-`sudo ldconfig`  
-
+```sh
+cd ~
+mkdir tesseract && cd tesseract
+wget https://github.com/tesseract-ocr/tesseract/archive/3.04.01.tar.gz
+tar -zxvf 3.04.01.tar.gz
+rm 3.04.01.tar.gz
+cd tesseract-3.04.01
+./autogen.sh
+./configure
+make
+sudo make install
+sudo ldconfig
+```
 ## [5] Tesseract Training Data.
-`cd /usr/local/share/tessdata`  
-`sudo wget http://tesseract-ocr.googlecode.com/files/tesseract-ocr-3.02.eng.tar.gz`  
-`sudo tar xvf tesseract-ocr-3.02.eng.tar.gz`  
-`sudo rm tesseract-ocr-3.02.eng.tar.gz`  
-`export TESSDATA_PREFIX=/usr/local/share/`  
-`sudo mv tesseract-ocr/tessdata/* .`  
+```sh
+cd /usr/local/share/tessdata
+sudo wget http://tesseract-ocr.googlecode.com/files/tesseract-ocr-3.02.eng.tar.gz
+sudo tar xvf tesseract-ocr-3.02.eng.tar.gz
+sudo rm tesseract-ocr-3.02.eng.tar.gz
+export TESSDATA_PREFIX=/usr/local/share/
+sudo mv tesseract-ocr/tessdata/* .
+```
 
 ## [6] Source TESSERACT_PREFIX
-`nano ~/.bash_profile`  
-### Then Copy this line to the end:
-`export TESSDATA_PREFIX=/usr/local/share/`  
+```sh
+nano ~/.bash_profile
+```
 
-## [8] Verify
-`tesseract`  
-    
+### Then Copy this line to the end:
+```sh
+export TESSDATA_PREFIX=/usr/local/share/
+```
+
+## [7] Verify
+```sh
+tesseract
+```
+
 ---
 ## Notes
 
