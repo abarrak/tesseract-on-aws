@@ -70,9 +70,10 @@ tesseract
 
 ---
 ## Notes
+(1) - Use [`grap-train-langs.sh`](https://github.com/abarrak/tesseract-on-aws/blob/master/grap-train-langs.sh) to obtain all language training files, or customize as your needs.
 
 ---
 ## Credits
 * [Alan Gunning](https://github.com/alangunning), author of the original blog post.
 * [shantanusingh](https://gist.github.com/shantanusingh), author of [Tesseract-Amazon-AMI](https://gist.github.com/shantanusingh/6526664/revisions) gist.
-* [Abdullah Barrak](https://github.com/abarrak) upgrade, and shell script.
+* [Abdullah Barrak](https://github.com/abarrak) upgrade, and shell scripts.
