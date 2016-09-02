@@ -70,7 +70,7 @@ tesseract
 
 ---
 ## Notes
-(1) - Use [`grap-train-langs.sh`](https://github.com/abarrak/tesseract-on-aws/blob/master/grap-train-langs.sh) to obtain all language training files, or customize as your needs.
+(1) - Use [`grab-train-langs.sh`](https://github.com/abarrak/tesseract-on-aws/blob/master/grab-train-langs.sh) to obtain all language training files, or customize as your needs.
 
 ---
 ## Credits
