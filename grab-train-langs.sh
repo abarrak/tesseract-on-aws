@@ -4,9 +4,9 @@
 ## Entended for latest training files (V. 3.04)
 ## Author: Abdullah Barrak (github.com/abarrak)
 
-# Counterpart full names ..
-# [107 langs and Script] ..
-# .........................
+# Counterpart full names  ..
+# [107 langs and Scripts] ..
+# ..........................
 # Afrikaans | Amharic | Arabic | Assamese | Azerbaijani | Azerbaijani - Cyrilic | Belarusian | Bengali | Tibetan | Bosnian | Bulgarian | Catalan; Valencian | Cebuano | Czech | Chinese - Simplified | Chinese - Traditional | Cherokee | Welsh | Danish | Danish - Fraktur | German | German - Fraktur | Dzongkha | Greek, Modern (1453-) | English | English, Middle (1100-1500) | Esperanto | Math/equation detection module | Estonian | Basque | Persian | Finnish | French | Frankish | French, Middle (ca.1400-1600) | Irish | Galician | Greek, Ancient (to 1453) | Gujarati | Haitian; Haitian Creole | Hebrew | Hindi | Croatian | Hungarian | Inuktitut | Indonesian | Icelandic | Italian | Italian - Old | Javanese | Japanese | Kannada | Georgian | Georgian - Old | Kazakh | Central Khmer | Kirghiz; Kyrgyz | Korean | Kurdish | Lao | Latin | Latvian | Lithuanian | Malayalam | Marathi | Macedonian | Maltese | Malay | Burmese | Nepali | Dutch; Flemish | Norwegian | Oriya | Orientation and script detection module | Panjabi; Punjabi | Polish | Portuguese | Pushto; Pashto | Romanian; Moldavian; Moldovan | Russian | Sanskrit | Sinhala; Sinhalese | Slovak | Slovak - Fraktur | Slovenian | Spanish; Castilian | Spanish; Castilian - Old | Albanian | Serbian | Serbian - Latin | Swahili | Swedish | Syriac | Tamil | Telugu | Tajik | Tagalog | Thai | Tigrinya | Turkish | Uighur; Uyghur | Ukrainian | Urdu | Uzbek | Uzbek - Cyrilic | Vietnamese | Yiddish
 # ........................
 
