@@ -28,9 +28,9 @@ cd /usr/local/share/tessdata
 for i in "${!REPO_FILES[@]}"
   do
      langfile="${REPO_FILES[i]}"
-     printf "\n....|.... Obtaining $langfile Training Data Files ....|....\n"
+     printf "\n\n....|.... Obtaining $langfile Training Data Files ....|....\n"
      sudo wget "$TESSERACT_TRDATA_URL/$langfile"
-     printf "\n.........................................................................\n\n"
+     printf "\n.........................................................................\n"
   done
 
 printf "................................................\n"
